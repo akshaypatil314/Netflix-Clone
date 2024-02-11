@@ -215,6 +215,12 @@ hr {
     margin-bottom: 10px;
 }
 
+.question-section:hover {
+    background-color: #222222;
+    cursor: pointer;
+    box-shadow: 0 0 2px grey;
+}
+
 .question-section a {
     text-decoration: none;
     color: white;
