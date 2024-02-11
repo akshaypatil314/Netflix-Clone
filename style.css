@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero {
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.4)), url(assets/hero.jpg);
+    width: 98.8vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 1180px;
+    margin-inline: 225px;
+    padding-inline: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    position: absolute;
+    top: 10px;
+    left: auto;
+    right: auto;
+    color: white;
+    padding: 20px;
+}
+
+.nav-logo-desc h1 {
+    color: #e50914;
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-links a {
+    color: white;
+}
+
+
+.nav-buttons {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.secondary-button {
+    background-color: black;
+    opacity: 0.8;
+    color: white !important;
+    border-radius: 5px;
+    font-size: 16px !important;
+    padding: 3px 20px 5px 20px;
+    font-weight: bold;
+}
+
+/* .nav-links>a {
+    border: 3x solid white;
+} */
+
+
+.primary-button {
+    background-color: #e50914;
+    border-radius: 5px;
+    font-size: 16px !important;
+    padding: 3px 10px 5px 10px;
+    font-weight: 500;
+}
+
+.hero-text {
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 270px;
+}
+
+.hero-text h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.hero-text h4 {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.hero-text h5 {
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: normal;
+    font-weight: normal;
+}
+
+.input-elements {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.input-elements input {
+    width: 500px;
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 16px;
+    line-height: 24px;
+    color: white;
+    font-weight: 500;
+    outline: none;
+    border: 1px solid rgb(164, 163, 163);
+}
+
+.input-elements button {
+    background-color: #e50914;
+    font-size: 24px;
+    padding: 16px;
+    border-radius: 4px;
+    line-height: 24px;
+    color: white;
+    outline: none;
+    font-weight: 500;
+}
+
+.input::placeholder {
+    color: white;
+    font-size: 16px;
+}
+
+hr {
+    height: 10px;
+    background-color: rgb(61, 61, 61);
+    border: 1px solid black;
+}
+
+.feature-section {
+    background-color: #000000;
+    height: 550px;
+    color: white;
+    position: relative;
+}
+
+.feature-section-flex-setting {
+    padding-top: 100px;
+    justify-content: space-between;
+}
+
+.img-section {
+    width: 45%;
+}
+
+.img-section img {
+    width: 100%;
+
+}
+
+.img-section video {
+    position: absolute;
+    right: 210px;
+    top: 180px;
+    width: 370px;
+}
+
+.text-section {
+    width: 55%;
+}
+
+.text-section h1 {
+    font-size: 48px;
+    text-align: left;
+}
+
+.text-section h4 {
+    font-size: 24px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.questions {
+    width: 98.8vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 72px 0px 0px 0px;
+}
+
+.questions h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.question-section {
+    height: 70px;
+    background-color: #2d2d2d;
+    padding: 20px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.question-section a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    text-align: left;
+    padding: 80px 0px 80px 0px;
+    background-color: black;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+
+footer h5 a {
+    color: #8c8c8c;
+
+}
+
+.footer-section a {
+    padding-top: 20px;
+    display: block;
+    color: #8c8c8c;
+}
+
+.footer-section {
+    padding-top: 20px;
+    gap: 20px;
+    flex-direction: column;
+}
