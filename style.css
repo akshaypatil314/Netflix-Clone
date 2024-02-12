@@ -7,9 +7,17 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .hero {
     background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.4)), url(assets/hero.jpg);
-    width: 98.8vw;
+    width: 100vw;
     height: 100vh;
     position: relative;
     background-size: cover;
@@ -64,11 +72,6 @@
     padding: 3px 20px 5px 20px;
     font-weight: bold;
 }
-
-/* .nav-links>a {
-    border: 3x solid white;
-} */
-
 
 .primary-button {
     background-color: #e50914;
@@ -171,7 +174,7 @@ hr {
 
 .img-section video {
     position: absolute;
-    right: 210px;
+    right: 224px;
     top: 180px;
     width: 370px;
 }
@@ -192,7 +195,7 @@ hr {
 }
 
 .questions {
-    width: 98.8vw;
+    width: 100vw;
     height: 100vh;
     background-color: black;
     color: white;

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -35,7 +36,7 @@
 
     <section class="feature-section">
         <div class="container flex feature-section-flex-setting">
-            <div class="text-section">
+            <div class="text-section" data-aos="slide-up">
                 <h1>Enjoy on your TV</h1>
                 <h4>Watch on smartTVs, PlayStation, Xbox, Chromecast,</h4>
                 <h4>Apple TV, Blu-ray players and more.</h4>
@@ -52,7 +53,7 @@
     <hr>
 
     <section class="feature-section">
-        <div class="container flex feature-section-flex-setting">
+        <div class="container flex feature-section-flex-setting" data-aos="slide-up">
             <div class="img-section">
                 <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg">
             </div>
@@ -70,7 +71,7 @@
 
     <section class="feature-section">
         <div class="container flex feature-section-flex-setting">
-            <div class="text-section">
+            <div class="text-section" data-aos="slide-up">
                 <h1>Watch everywhere</h1>
                 <h4>Stream unlimited movies and TV shows on your</h4>
                 <h4>phone, tablet, laptop, and TV.</h4>
@@ -87,7 +88,7 @@
     <hr>
 
     <section class="feature-section">
-        <div class="container flex feature-section-flex-setting">
+        <div class="container flex feature-section-flex-setting" data-aos="slide-up">
             <div class="img-section">
                 <img
                     src="https://occ-0-2849-3646.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d">
@@ -103,7 +104,7 @@
 
     <hr>
     <section class="questions">
-        <div class="container">
+        <div class="container" data-aos="slide-up">
             <h1>Frequently Asked Questions</h1>
             <div class="question-section flex">
                 <div>
@@ -190,6 +191,14 @@
 
 
     <script src="https://kit.fontawesome.com/1d2e754d40.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            duration: 1000,
+            ease: "ease"
+        });
+    </script>
 </body>
 
 </html>
